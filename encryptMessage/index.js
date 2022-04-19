@@ -36,7 +36,7 @@ function getEncryptString(str) {
 	reverseArray.forEach(combineWord);
 	
 	// Get final encryptd string
-	return reverseArray.join().replaceAll(',',' '); 
+	return reverseArray.join(' '); 
 	
 }
 
